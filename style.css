@@ -1,0 +1,219 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #070b14;
+color: white;
+line-height: 1.6;
+}
+
+
+nav strong {
+color: #65e6ff;
+font-size: 22px;
+letter-spacing: 4px;
+margin-right: 40px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+}
+
+nav a {
+color: #65e6ff;
+}
+
+/* HERO AND PAGE HEADERS */
+
+header {
+min-height: 75vh;
+
+padding: 120px 7%;
+
+background:
+    radial-gradient(circle at 80% 30%, #164e70, transparent 30%),
+    radial-gradient(circle at 20% 70%, #24145c, transparent 35%),
+    #080c16;
+
+}
+
+header p {
+color: #65e6ff;
+letter-spacing: 3px;
+}
+
+header h1 {
+font-size: 90px;
+line-height: 1;
+margin: 20px 0;
+}
+
+header p {
+color: #aebbd0;
+max-width: 550px;
+}
+
+header a {
+display: inline-block;
+
+margin-top: 30px;
+padding: 14px 25px;
+
+background: #65e6ff;
+color: #06101b;
+
+text-decoration: none;
+font-weight: bold;
+
+transition: 0.3s;
+
+}
+
+header a {
+background: white;
+box-shadow: 0 0 25px #65e6ff;
+transform: translateY(-3px);
+}
+
+/* SECTIONS */
+
+main section {
+padding: 90px 7%;
+}
+
+main section > p {
+color: #65e6ff;
+letter-spacing: 3px;
+font-size: 13px;
+}
+
+h2 {
+font-size: 40px;
+margin: 10px 0 40px;
+}
+
+/* FEATURE CARDS */
+
+main section article {
+display: inline-block;
+vertical-align: top;
+
+width: 23%;
+min-height: 220px;
+
+margin: 1%;
+
+padding: 30px;
+
+background: #111a2b;
+border: 1px solid #26344b;
+
+transition: 0.3s;
+
+}
+
+main section article {
+transform: translateY(-8px);
+border-color: #65e6ff;
+box-shadow: 0 0 25px rgba(101, 230, 255, 0.15);
+}
+
+article small {
+color: #65e6ff;
+}
+
+article h3 {
+margin: 25px 0 10px;
+}
+
+article p {
+color: #8e9db5;
+}
+
+/* TABLE */
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th {
+padding: 16px;
+text-align: left;
+
+background: #162239;
+color: #65e6ff;
+
+}
+
+td {
+padding: 16px;
+border-bottom: 1px solid #26344b;
+}
+
+tbody tr(even) {
+background: #111a2b;
+}
+
+tbody tr(odd) {
+background: #0b121f;
+}
+
+/* GALLERY */
+
+figure {
+margin: 0;
+}
+
+figure img {
+width: 100%;
+height: 220px;
+object-fit: cover;
+}
+
+figcaption {
+padding: 15px;
+
+background: #111a2b;
+
+color: #65e6ff;
+font-weight: bold;
+
+}
+
+/* FAQ */
+
+details {
+max-width: 800px;
+
+padding: 20px 0;
+
+border-bottom: 1px solid #26344b;
+
+}
+
+
+/* BOOKING STATUS */
+
+aside {
+display: inline-block;
+
+padding: 15px 20px;
+margin-bottom: 35px;
+
+background: #0b1918;
+border: 1px solid #234238;
+
+color: #56f39a;
+
+}
+
+aside p {
+color: #56f39a;
+}
